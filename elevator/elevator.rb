@@ -1,4 +1,7 @@
 class Elevator
+
+  attr_accessor :floors, :initial_floor
+
   def initialize(floors, initial_floor)
     @floors = floors
     @current_floor = Integer(initial_floor)
